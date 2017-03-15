@@ -1,0 +1,9 @@
+---
+output_dir: 'plugins'
+
+GET: https://${publisher}.gallery.vsassets.io/_apis/public/gallery/publisher/${publisher}/extension/${extension name}/${version}/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+
+urls:
+ - https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2
+ - https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker
+ - https://marketplace.visualstudio.com/items?itemName=donjayamanne.python
